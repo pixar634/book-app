@@ -1,0 +1,64 @@
+{
+    "books": [
+        {
+            "id": "a",
+            "name": "A",
+            "price": 5
+        },
+        {
+            "id": "b",
+            "name": "B",
+            "price": 5
+        },
+        {
+            "id": "c",
+            "name": "C",
+            "price": 5
+        },
+        {
+            "id": "d",
+            "name": "D",
+            "price": 7
+        },
+        {
+            "id": "e",
+            "name": "E",
+            "price": 8
+        },
+        {
+            "id": "f",
+            "name": "F",
+            "price": 9
+        },
+        {
+            "id": "g",
+            "name": "G",
+            "price": 5
+        },
+        {
+            "id": "h",
+            "name": "H",
+            "price": 5
+        },
+        {
+            "id": "i",
+            "name": "I",
+            "price": 3
+        },
+        {
+            "id": "j",
+            "name": "J",
+            "price": 10
+        }
+    ],
+    "user": [
+        {
+            "name": "Jeet",
+            "bookIdList": ["a", "d", "e"]
+        },
+        {
+            "name": "Pablo",
+            "bookIdList": ["b", "i"]
+        }
+    ]
+}
