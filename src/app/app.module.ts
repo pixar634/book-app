@@ -3,21 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TestingModule } from './testing/testing.module';
-import { LoginModule } from './login/login.module';
+
 import { HttpClientModule } from '@angular/common/http';
 import { AppService } from './app.service';
+import { NavComponent } from './nav/nav.component';
+import { BooklistComponent } from './booklist/booklist.component';
+import { BookAvailabilityComponent } from './book-availability/book-availability.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    NavComponent,
+    BooklistComponent,
+    BookAvailabilityComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    TestingModule,
-    LoginModule,
-    HttpClientModule
+    AppRoutingModule,    
+    HttpClientModule,
   ],
   providers: [AppService],
   bootstrap: [AppComponent]
