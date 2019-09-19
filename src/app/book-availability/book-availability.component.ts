@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 
 @Component({
   selector: 'app-book-availability',
@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./book-availability.component.css']
 })
 export class BookAvailabilityComponent implements OnInit {
-
+  
+  @Input('selected') selected: any;
+ 
   constructor() { }
 
   ngOnInit() {
   }
+
 
 }

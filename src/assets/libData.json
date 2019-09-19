@@ -3,61 +3,71 @@
         {
             "id": "a",
             "name": "A",
-            "price": 5
+            "price": 5,
+            "details": "This is A.WOW"
         },
         {
             "id": "b",
             "name": "B",
-            "price": 5
+            "price": 5,
+            "details": "This is B.WOW"
         },
         {
             "id": "c",
             "name": "C",
-            "price": 5
+            "price": 5,
+            "details": "This is C.WOW"
         },
         {
             "id": "d",
             "name": "D",
-            "price": 7
+            "price": 7,
+            "details": "This is D.WOW"
         },
         {
             "id": "e",
             "name": "E",
-            "price": 8
+            "price": 8,
+            "details": "This is E.WOW"
         },
         {
             "id": "f",
             "name": "F",
-            "price": 9
+            "price": 9,
+            "details": "This is F.WOW"
         },
         {
             "id": "g",
             "name": "G",
-            "price": 5
+            "price": 5,
+            "details": "This is G.WOW"
         },
         {
             "id": "h",
             "name": "H",
-            "price": 5
+            "price": 5,
+            "details": "This is H.WOW"
         },
         {
             "id": "i",
             "name": "I",
-            "price": 3
+            "price": 3,
+            "details": "This is I.WOW"
         },
         {
             "id": "j",
             "name": "J",
-            "price": 10
+            "price": 10,
+            "details": "This is J.WOW"
         }
     ],
     "user": [
         {
-            "name": "Jeet",
+            "name": "Bin LAden",
             "bookIdList": ["a", "d", "e"]
         },
         {
-            "name": "Pablo",
+            "name": "Osama",
             "bookIdList": ["b", "i"]
         }
     ]

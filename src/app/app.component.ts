@@ -10,12 +10,19 @@ import { AppService } from './app.service';
 export class AppComponent implements OnInit {
 
   data: any;
+  selected: any;
 
   constructor(private appService: AppService) {}
   ngOnInit() {
     this.appService.getData().subscribe(data => {
       this.data = data;
     });
+  }
+
+  selectedBook($event){
+    this.selected= $event;
+    console.log("44444444444",$event);
+    
   }
 
   
